@@ -109,7 +109,7 @@ LinearRegression
 <img src='./images/energy03.png' width='500px'>
 <img src='./images/energy04.png' width='500px'>
 
-> 훈련 결과 R2: 0.8706
+> 훈련 결과 R2: 0.8706  
 > 실제 예측 R2: 0.8679
 
         훈련 결과와 실제 예측 결과가 거의 비슷한 양상을 보이며 수치도 차이가 나지 않습니다.

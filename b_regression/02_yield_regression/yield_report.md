@@ -152,9 +152,9 @@ LGBMRegressor
 3. LinearRegression 모델의 회귀 예측 결과를 시각화하여 규제가 필요한지 판단해봅니다.
 
 <img src='./images/yield09.png' width="500px">
-<img src='./images/yield10.png' width="472px">
+<img src='./images/yield10.png' width="500px">
 
-> 훈련 결과 R2: 0.8651
+> 훈련 결과 R2: 0.8651  
 > 실제 예측 R2: 0.8710
 
         훈련 결과와 실제 예측 결과가 거의 비슷한 양상을 보이며 수치도 차이가 나지 않습니다.

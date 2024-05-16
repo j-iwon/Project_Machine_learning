@@ -101,8 +101,8 @@ LGBMRegressor
     > MSE: 5401.9247, RMSE: 73.4978, MSLE: 0.0150, RMSLE: 0.1224, R2: 0.8710
 
 (좌) 다중공선성 해소 전 / (우) 다중공선성 해소 후 상관관계 시각화  
-<img src='./images/yield02.png' width="600px">
-<img src='./images/yield04.png' width="600px">
+<img src='./images/yield02.png' width="400px">
+<img src='./images/yield04.png' width="400px">
 
         R2의 값이 소폭 줄어들었지만 OLS 와 VIF 결과 다중공선성이 해소된 더 좋은 모델이 되었다고 할 수 있습니다.
 

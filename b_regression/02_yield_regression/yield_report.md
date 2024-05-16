@@ -80,6 +80,12 @@ LGBMRegressor
 
 #### 독립, 종속변수간의 상관관계와 OLS, VIF를 확인하여 다중공선성을 제거해봅니다.
 
+변수간의 상관관계  
+ <img src='./images/yield02.png' width="600px">
+
+타겟과의 상관관계  
+ <img src='./images/yield11.png'>
+
 1. 컬럼 제거 전  
    <img src='./images/yield03.png' width="300px">
 

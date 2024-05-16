@@ -58,6 +58,12 @@
 
 #### `OLS`와 `VIF`를 통해 수치를 확인하고 다중공선성을 해소해보았습니다.
 
+변수간의 상관관계  
+ <img src='./images/bank09.png'>
+
+타겟과의 상관관계  
+ <img src='./images/bank08.png'>
+
 0.  제거하기 전,
 
  <img src='./images/bank02.png'>
@@ -115,11 +121,14 @@
            모델이 이탈할 고객을 이탈하지 않을 고객으로 잘못 분류하여 놓치는 경우(FN) 은행의 고객 유지에 좋지 않다.
            때문에 FN을 낮추기 위해 임계치를 낮추고 재현율을 올려주는 것이 적절하다고 판단한다.
 
+-   `predict_proba` 를 사용하여 재현율이 높으면서 F1 score가 높은 결과를 찾은 결과 threshold = 0.4296 가 가장 적합하였습니다.
 -   다음은 임계치를 조정하여 LogisticRegression 모델을 사용한 결과입니다.
+
     > 정확도: 0.7252, 정밀도: 0.6988, 재현율: 0.7917, F1:0.7423, AUC:0.7253
 
-<img src='./images/bank05.png' width="400px">  
-<img src='./images/bank06.png' width="400px">
+<img src='./images/bank07.png' width="500px">  
+<img src='./images/bank05.png' width="500px">   
+<img src='./images/bank06.png' width="500px">
 
 #### k-Fold를 통하여 교차검증하여 해당 모델의 과적합을 확인해봅니다.
 

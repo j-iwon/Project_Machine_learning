@@ -126,8 +126,11 @@
 
     > 정확도: 0.7252, 정밀도: 0.6988, 재현율: 0.7917, F1:0.7423, AUC:0.7253
 
+오차행렬  
 <img src='./images/bank07.png' width="500px">  
-<img src='./images/bank05.png' width="500px">   
+정밀도와 재현율  
+<img src='./images/bank05.png' width="500px">  
+roc-curve  
 <img src='./images/bank06.png' width="500px">
 
 #### k-Fold를 통하여 교차검증하여 해당 모델의 과적합을 확인해봅니다.
@@ -136,3 +139,6 @@
 > 실제 예측 정확도 : 0.7351
 
 과적합이 아님을 판단할 수 있었습니다.
+
+         위의 시각화된 그래프를 보아 임계치를 threshold = 0.4296 로 조정한 LogisticRegression 모델을 사용하는 것이
+         이탈 고객을 방지할 수 있는 최적의 모델이라고 할 수 있다.
